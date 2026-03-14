@@ -61,7 +61,7 @@ for M in sample_counts
     
     m_val = mean(trial_results)
     std_val = std(trial_results) 
-    se_val = std_val / sqrt(M) 
+    se_val = std_val
     
     push!(final_means, m_val)
     push!(standard_deviations, se_val)
